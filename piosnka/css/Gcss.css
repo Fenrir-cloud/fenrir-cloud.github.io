@@ -1,0 +1,78 @@
+body
+{
+    background-color: rgb(34, 35, 51);
+    margin: 30px;
+}
+
+#container
+{
+    width: auto;
+    height: auto;
+}
+
+#gora
+{
+    width: 99%;
+    height: 16vh;
+    margin: 0.5%;
+    background-color: rgb(42, 44, 64);
+    display: table;  
+    color: #F0F0FF;
+}
+
+.gora1
+{
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 8vh;
+}
+
+#srodek
+{
+    width: 70%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dol
+{
+    width: 99%;
+    height: 7vh;
+    margin: 0.5%;
+    background-color: #32344D;
+    color: #F0F0FF;
+    font-family: 'times';
+    text-align: center;
+}
+.maly
+{
+    width: 25%;
+    height: 35%;
+    margin-left: 6.5%;
+    margin-top: 5%;
+    border-radius: 30px/30px;
+    background-color: #5D608C;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    float: left;
+}
+
+.maly:hover
+{
+	background-color: #878BCC;
+}
+
+a{color: black;}
+a:link {text-decoration: none}
+a:visited {text-decoration: none}
+a:active {text-decoration: none}
+a:hover {text-decoration: none}
+
+.tytul_maly
+{
+	font-size: 4vh;
+	padding-top: 20%;
+}
