@@ -1,0 +1,3 @@
+Responsive web design (RWD) jest to technika takiego projektowania strony WWW, aby jej układ dostosowywał się samoczynnie do rozmiaru okna przeglądarki, na której jest wyświetlany np. przeglądarki, smartfonów czy tabletów. Strona utworzona tą techniką jest uniwersalna: wyświetla się dobrze na dużych ekranach oraz na smartfonach i tabletach. Przykładem takiej strony jest ta strona!
+
+Obsługa tej techniki odbywa się za pomocą tzw. media queries, które pozwalają rozpoznać rozdzielczość okna przeglądarki i zastosować odpowiedni arkusz stylu, lub jego fragment. Do działania możemy również użyć różnych skryptów JavaScript. 
