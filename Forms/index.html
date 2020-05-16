@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Biohacking</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/istyle.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge">
+    <meta name="author" content="127BIT">
+</head>
+<body>
+    <nav id="header">
+        <ul class="nav__links">
+            <li id="header_left"><a href="index.html"><span style="color: rgb(9, 180, 46);">Bio</span>hacking.net</a></li>
+            <li id="header_right"><a href="#column1">Zapisy</a></li>
+        </ul>
+    </nav>
+
+    <div id="container">
+        <div id="logo"><span style="color: rgb(9, 180, 46);">Bio</span>hacking 2020</div>
+        
+        <div id="article">
+            <p id="l1">1</p>
+            <h2 id="htext1">
+                Co to Biohacking?
+            </h2>
+            <p id="text1">
+                Chciałeś kiedyś świecić w ciemnościach, naprawić wzrok swojego bliskiego mającego nieprawidłowe geny,
+                albo po prostu mieć super tkankę mięśniową. Zabawy genetyką od niedawna stały się rzeczywistością.
+            </p>
+
+            <p id="l2">2</p>
+            <h2 id="htext2">
+                Jak to możliwe?
+            </h2>
+            <p id="text2">
+                Dzieki technologi CRISPR coraz częściej słyszynmy o możliwości pomocy ludziom chorującym na choroby genetyczne. Niestety ceny takich kuracji zaczynają
+                się od minimalnie miliona złotych.
+            </p>
+
+            <p id="l3">3</p>
+            <h2 id="htext3">
+                Czy jest jakaś tańsza alternatywa?
+            </h2>
+            <p id="text3">
+                Dzięki Josiahowi Zaynerowi który potwierdził że pomoc takim ludziom może być znacznie tańsza,
+                narodził się nowy ruch, ruch Biohackerów którzy nie tylko starają się pomóc w znalezieniu odpowiedniego genomu warunkującemu choroby
+                genetyczne, ale także w nadpisaniu naszego kodu genetycznego aby każdy z nas mógł stać się człowiekiem 2.0
+            </p>
+            
+
+        </div>
+        
+        <form action="" method="POST">
+            <fieldset>
+                <p id="column1">
+                    <label>
+                        Imię:<input type="text" name="name" />
+                    </label>
+                    <br />
+                    <br/>
+                    <label>
+                        Nazwisko:<input type="text" name="family name" />
+                    </label>
+                    <br />
+                    <br/>
+                    <label>
+                        Adres e-mail:<input type="text" name="name" />
+                    </label>
+                    <br />
+                    <br/>
+                    <label>
+                        Kod pocztowy:<input type="text" name="name" />
+                    </label>
+                    <br/>
+                    <br/>
+                </p>
+                <p>
+                    Płeć:
+                    <label>
+                        <input type="radio" name="rating" value="other" />
+                        Inna
+                    </label>
+                    <label>
+                        <input type="radio" name="rating" value="female" />
+                        Kobieta
+                    </label>
+                    <label>
+                        <input type="radio" name="rating" value="man" />
+                        Mężczyzna
+                    </label>
+                    <br/>
+                    <br/>
+                </p>
+                <p id="column2">
+                    <label for="date">
+                        Termin szkolenia
+                    </label>
+                    <br/>
+                    <select name="referrer" id="date">
+                        <option value="none"></option>
+                        <option value="War">9.07 Warszawa</option>
+                        <option value="Gda">20.07 Gdańsk</option>
+                        <option value="Kra">2.08 Kraków</option>
+                    </select>
+                </p>
+                <br/>
+                <p>
+                    <label for="comments">Masz pytania napisz tutaj:</label>
+                    <br />
+                    <textarea rows="4" cols="40" id="comments">
+                    
+                    </textarea>
+                </p>
+                <br />
+                <input type="submit" value="Prześlij informacje" />
+                <input type="reset" value="Resetuj" />
+            </fieldset>
+        </form>
+        <footer>Made by Pawel P</footer>
+    </div>
+</body>
+</html>
